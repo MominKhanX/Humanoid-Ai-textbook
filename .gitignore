@@ -1,0 +1,68 @@
+nul
+
+# Dependencies
+node_modules/
+
+# Docusaurus build output
+build/
+.docusaurus/
+
+# Environment variables
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+.apdisk
+
+# Docusaurus specific
+.cache-loader/
+.gitattributes
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage/
+.nyc_output/
+junit.xml
+*.log
+
+# Distribution
+dist/
+out/
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
